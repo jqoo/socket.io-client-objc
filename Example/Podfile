@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'socket.io-client-objc_Example' do
+  pod 'socket.io-client-objc', :path => '../'
+
+  target 'socket.io-client-objc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
